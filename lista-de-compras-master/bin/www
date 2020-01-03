@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+const app = require('../app');
+// const debug = require('debug')('mean-app:server')
+const http = require('http');
+
+const server = http.createServer(app);
+
+server.listen(app.get('port'));

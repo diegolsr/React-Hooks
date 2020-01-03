@@ -1,0 +1,20 @@
+import React, { Component } from 'react';
+import './App.css';
+import Container from './components/container';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <p>
+            Demo of React/Context/Hooks
+          </p>
+        </header>
+        <Container />
+      </div>
+    );
+  }
+}
+
+export default App;
